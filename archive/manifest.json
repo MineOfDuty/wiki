@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "categories": {
+    "fields": { "nameKo": "필드", "icon": "map" },
+    "weapons": { "nameKo": "총기", "icon": "crosshair" },
+    "vehicles": { "nameKo": "탈것", "icon": "truck" }
+  },
+  "items": [
+    {
+      "id": "dam",
+      "name": "댐",
+      "category": "fields",
+      "tags": ["대형", "쟁탈전", "장비전"],
+      "thumbnail": "images/fields/dam.png",
+      "file": "archive/fields/dam.md",
+      "summary": "댐과 산악 지형을 배경으로 한 대형 전투 맵"
+    },
+    {
+      "id": "moscow",
+      "name": "모스크바",
+      "category": "fields",
+      "tags": ["소형", "쟁탈전", "보병전"],
+      "thumbnail": "images/fields/moscow.png",
+      "file": "archive/fields/moscow.md",
+      "summary": "모스크바 시가지를 배경으로 한 소형 전투 맵"
+    },
+    {
+      "id": "hk433",
+      "name": "HK433",
+      "category": "weapons",
+      "tags": ["돌격소총"],
+      "thumbnail": "images/weapons/hk433.png",
+      "file": "archive/weapons/hk433.md",
+      "summary": "정밀함과 모듈성으로 완성된 현대 전장을 위한 독일의 선택"
+    },
+    {
+      "id": "m4a1",
+      "name": "M4A1",
+      "category": "weapons",
+      "tags": ["돌격소총"],
+      "thumbnail": "images/weapons/m4a1.png",
+      "file": "archive/weapons/m4a1.md",
+      "summary": "신뢰성과 운용성으로 전장을 지배해온 표준의 이름"
+    },
+    {
+      "id": "ak12",
+      "name": "AK-12",
+      "category": "weapons",
+      "tags": ["돌격소총"],
+      "thumbnail": "images/weapons/ak12.png",
+      "file": "archive/weapons/ak12.md",
+      "summary": "혹독한 환경 속에서도 진화하며 살아남은 현대화된 전사의 계보"
+    },
+    {
+      "id": "asval",
+      "name": "As Val",
+      "category": "weapons",
+      "tags": ["돌격소총"],
+      "thumbnail": "images/weapons/asval.png",
+      "file": "archive/weapons/asval.md",
+      "summary": "침묵 속에서 임무를 완수하는 특수작전의 그림자"
+    },
+    {
+      "id": "mp5",
+      "name": "MP5",
+      "category": "weapons",
+      "tags": ["기관단총"],
+      "thumbnail": "images/weapons/mp5.png",
+      "file": "archive/weapons/mp5.md",
+      "summary": "정밀한 반동 제어와 높은 신뢰성으로 근접 전투의 기준이 된 기관단총"
+    },
+    {
+      "id": "p90",
+      "name": "P90",
+      "category": "weapons",
+      "tags": ["기관단총"],
+      "thumbnail": "images/weapons/p90.png",
+      "file": "archive/weapons/p90.md",
+      "summary": "컴팩트한 구조와 고속 탄환으로 근접 전투의 새로운 방식을 제시한 개인방어화기"
+    },
+    {
+      "id": "vulcan",
+      "name": "발칸",
+      "category": "vehicles",
+      "tags": ["터렛"],
+      "thumbnail": "images/vehicles/vulcan.png",
+      "file": "archive/vehicles/vulcan.md",
+      "summary": "분당 수천 발의 탄환으로 저공 위협을 갈아버리는 근접 방공의 강철 폭풍"
+    },
+    {
+      "id": "t14",
+      "name": "T-14",
+      "category": "vehicles",
+      "tags": ["전차"],
+      "thumbnail": "images/vehicles/t14.png",
+      "file": "archive/vehicles/t14.md",
+      "summary": "무인 포탑과 차세대 장갑으로 미래 전장을 준비한 러시아의 차세대 전차"
+    },
+    {
+      "id": "mh6",
+      "name": "MH-6",
+      "category": "vehicles",
+      "tags": ["헬기"],
+      "thumbnail": "images/vehicles/mh6.png",
+      "file": "archive/vehicles/mh6.md",
+      "summary": "민첩한 기동성과 은밀한 접근으로 특수부대를 전장 한가운데로 투입하는 작은 그림자"
+    },
+    {
+      "id": "ah64",
+      "name": "AH-64",
+      "category": "vehicles",
+      "tags": ["헬기"],
+      "thumbnail": "images/vehicles/ah64.png",
+      "file": "archive/vehicles/ah64.md",
+      "summary": "압도적인 화력과 감시 능력으로 전장을 지배하는 공중의 사냥꾼"
+    },
+    {
+      "id": "mi28",
+      "name": "Mi-28",
+      "category": "vehicles",
+      "tags": ["헬기"],
+      "thumbnail": "images/vehicles/mi28.png",
+      "file": "archive/vehicles/mi28.md",
+      "summary": "강력한 화력과 장갑으로 전장을 가로지르며 지상 목표를 추적하는 러시아의 공격 헬기"
+    }
+  ]
+}
