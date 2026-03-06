@@ -59,10 +59,12 @@ export async function renderArchiveDetailPage(container, id) {
             </div>
         `;
     } catch (err) {
+        console.error('Archive detail error:', err);
         container.innerHTML = `
             <div class="empty-state">
                 <div class="empty-state-icon">&#x26A0;</div>
                 <p class="empty-state-text">데이터를 불러오는 중 오류가 발생했습니다.</p>
+                <p class="empty-state-text" style="font-size:0.8rem;margin-top:8px;color:var(--text-muted);">${escapeHtml(err.message)}</p>
                 <a href="#/archive" class="back-btn">아카이브로 돌아가기</a>
             </div>
         `;
