@@ -16,6 +16,24 @@
       "summary": "댐과 산악 지형을 배경으로 한 대형 전투 맵"
     },
     {
+      "id": "gorge",
+      "name": "협곡",
+      "category": "fields",
+      "tags": ["소형", "습격전", "보병전"],
+      "thumbnail": "images/fields/gorge.png",
+      "file": "archive/fields/gorge.md",
+      "summary": "중앙 협곡과 눈이 내린 아름다운 배경에서 전투를 경험하세요."
+    },
+    {
+      "id": "metro",
+      "name": "지하철",
+      "category": "fields",
+      "tags": ["소형", "쟁탈전", "보병전"],
+      "thumbnail": "images/fields/metro.png",
+      "file": "archive/fields/metro.md",
+      "summary": "지하철을 배경으로 한 소형 전투 맵"
+    },
+    {
       "id": "moscow",
       "name": "모스크바",
       "category": "fields",
